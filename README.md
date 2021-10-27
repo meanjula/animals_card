@@ -13,6 +13,8 @@ Built with:
 
 ## Screenshot
 
+![project screenshot](./animals.png)
+
 ## Sources
 
 - [reactjs documentation](https://reactjs.org/tutorial/tutorial.html)
