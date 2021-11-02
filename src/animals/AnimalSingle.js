@@ -5,7 +5,7 @@ function AnimalSingle(props) {
 	let{animal}=useParams();
 	return (
 		<div>
-			this is page for{animal}
+			This is page for {animal}
 		</div>
 	);
 }

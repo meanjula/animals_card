@@ -1,12 +1,12 @@
-
-import React from "react";
+import React from 'react';
 import Nav from './Nav'
-const Header = ()=>{
+const Header=()=>{
 	return(
-		<header>
-          <h1>Animals Images</h1>
-		  <Nav/>
-		</header>
+	  <header>
+		<h1>Logo</h1>
+		<Nav/>
+	  </header>
 	)
-}
-export default Header
+  }
+export default Header;
+

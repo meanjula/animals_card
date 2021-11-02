@@ -1,3 +1,4 @@
+//created while learning functional component this project uses class component.
 import React from 'react';
 import {animals} from './animals';
 import AnimalCard from './AnimalsCard'
