@@ -16,7 +16,7 @@ Built with:
 
 ## Screenshot
 
-![project screenshot](./animals.png)
+![project screenshot](./src/images/animal.png)
 
 ## Sources
 
