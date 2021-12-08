@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;1,200&family=Playfair+Display:ital@0;1&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #333;
   color: aliceblue;
   font-size: 1.5rem;
@@ -14,6 +14,7 @@ body {
 
 header,
 footer {
+  font-family: "Montserrat", sans-serif;
   background-color: rgb(161, 88, 54);
   text-align: center;
 }
@@ -21,8 +22,8 @@ header {
   display: block;
   height: 10rem;
 }
-h1 {
-  padding-left: 5px;
+h3 {
+  padding-bottom: 2rem;
 }
 ul {
   list-style-type: none;
@@ -31,7 +32,6 @@ p {
   font-weight: bold;
 }
 main {
-  margin: 2rem 0;
   min-height: 500px;
 }
 .animalList {
@@ -58,13 +58,25 @@ input {
 .home,
 .about {
   background: url("./images/fox.jpg") no-repeat center center/cover;
-  height: 500px;
+  height: 600px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: black;
+  position: relative;
 }
+
+.home p,
+.about p {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  display: block;
+  width: 400px;
+  height: 400px;
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
 .animal-card {
   display: flex;
   flex-direction: column;
@@ -120,7 +132,8 @@ p {
 }
 footer {
   padding-top: 1.2rem;
-  height: 5rem;
+  height: 10rem;
+  font-weight: 100;
 }
 @media (max-width: 400px) {
   header {

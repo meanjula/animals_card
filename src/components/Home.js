@@ -3,10 +3,9 @@ import React from "react";
 const Home = () => {
   return (
     <div className="home">
-      <p>Welcome to the home page</p>
       <p>
-        You can search different animals through their name and can see their
-        cute pictures.
+        <span>Welcome to the home page.</span> You can search different animals
+        through their name and can see their cute pictures.
       </p>
       {/* <img src={image} alt="animalImage" /> */}
     </div>

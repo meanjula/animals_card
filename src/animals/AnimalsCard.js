@@ -2,16 +2,19 @@ import React from "react";
 import { Link, useRouteMatch } from "react-router-dom";
 
 const AnimalsCard = (props) => {
-	const match = useRouteMatch();
+  const match = useRouteMatch();
 
-	return (
-		<div className="animal-card">
-		    <img src={`https://source.unsplash.com/1600x900/?${props.name}`} alt={props.name}/>
-			<h2>{props.name}</h2>
+  return (
+    <div className="animal-card">
+      <img
+        src={`https://source.unsplash.com/1600x900/?${props.name}`}
+        alt={props.name}
+      />
+      <h2>{props.name}</h2>
 
-			<Link to={`${match.url}/${props.name}`}>Read more</Link>
-		</div>
-	);
+      <Link to={`${match.url}/${props.name}`}>Read more</Link>
+    </div>
+  );
 };
 
 export default AnimalsCard;
