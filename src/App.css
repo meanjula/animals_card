@@ -8,14 +8,14 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #333;
   color: aliceblue;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   height: 100vh;
 }
 
 header,
 footer {
   font-family: "Montserrat", sans-serif;
-  background-color: rgb(161, 88, 54);
+  background-color: rgb(80, 77, 76);
   text-align: center;
 }
 header {
@@ -53,21 +53,17 @@ input {
   border-radius: 5px;
   padding: 1rem;
   font-size: 1.5rem;
-  text-transform: capitalize;
 }
 .home,
 .about {
-  background: url("./images/fox.jpg") no-repeat center center/cover;
+  background: url("./images/wildlife.png") no-repeat center center/cover;
   height: 600px;
-  display: flex;
   position: relative;
+  color: #000;
 }
 
 .home p,
 .about p {
-  position: absolute;
-  top: 20px;
-  right: 10px;
   display: block;
   width: 400px;
   height: 400px;
@@ -75,6 +71,16 @@ input {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   line-height: 2.5rem;
+}
+.about p {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
+.home p {
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
 
 .animal-card {
@@ -88,7 +94,7 @@ input {
   justify-content: center;
   align-items: center;
   color: #000;
-  filter: grayScale(100%);
+  /* filter: grayScale(100%); */
 }
 .animal-card:hover {
   box-shadow: 0 0 20px #333;
@@ -112,9 +118,9 @@ img {
 }
 button {
   height: 3rem;
-  width: 5rem;
-  border-radius: 20px;
-  background-color: rgb(238, 111, 198);
+  width: 8rem;
+  border-radius: 10px 20px;
+  background-color: rgb(255, 187, 0);
   font-size: 1rem;
 }
 li a {

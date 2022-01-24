@@ -6,7 +6,7 @@ function AnimalSingle(props) {
   let history = useHistory();
   return (
     <div className="animal-single">
-      <h1>This is page for {animal}</h1>
+      <h3>This is page for {animal}</h3>
       <img
         src={`https://source.unsplash.com/1600x900/?${animal}`}
         alt={animal}
