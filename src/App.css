@@ -90,7 +90,8 @@ input {
   height: 300px;
   width: 300px;
   margin: 1rem;
-  box-shadow: 0 0 5px #333;
+  box-shadow: 0 0 5px rgb(80, 78, 78);
+
   justify-content: center;
   align-items: center;
   color: #000;
