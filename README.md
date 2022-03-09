@@ -28,4 +28,4 @@ Built with:
 Anjula Timsina
 
 - [GitHub](https://github.com/meanjula)
-<!-- - [linkedIn](https://www.linkedin.com/in/meanjula/) -->
+- [linkedIn](https://www.linkedin.com/in/meanjula/)
